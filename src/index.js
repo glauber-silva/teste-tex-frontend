@@ -7,16 +7,14 @@ import thunk from 'redux-thunk';
 import Routes from './Routes';
 import registerServiceWorker from './registerServiceWorker';
 
-//CSS imports
-import './index.css';
-import '../node_modules/bootstrap/dist/css/bootstrap.css';
-import '../node_modules/font-awesome/css/font-awesome.css';
-import '../public/style/global.scss';
+import reducer from './reducers';
 
+//CSS imports
+import './index.scss';
 const store = applyMiddleware(thunk)(createStore);
 
 
 ReactDOM.render(<Provider store={store(reducer)}>
     <Router routes={Routes} history={browserHistory}/></Provider>,
-    document.getElementById('root'))
+    document.getElementById('root'));
 registerServiceWorker();
