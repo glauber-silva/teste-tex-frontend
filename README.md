@@ -11,10 +11,10 @@ Este é um projeto teste desenvolvido para a TEx Tecnologia
 * Cross browser support (IE11+)
 * Consumir API de veiculos
 * Criar SPA que tenha...
-**Listagem de veículos
-**Detalhe do veículo
-**Busca
-** Formulário de novo/edição de veículos
+ -Listagem de veículos
+ -Detalhe do veículo
+ -Busca
+ -Formulário de novo/edição de veículos
 
 ***
 To run the setup:
@@ -28,11 +28,3 @@ To run tests:
 ```
 npm test
 ```
-
-Javascript Libraries used:
-
-- Express
-- Body Parser
-- Mongoose
-- Npm scripts
-- chai, chai-http, mocha
