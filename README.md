@@ -10,11 +10,7 @@ Este é um projeto teste desenvolvido para a TEx Tecnologia
 
 * Cross browser support (IE11+)
 * Consumir API de veiculos
-* Criar SPA que tenha...
- -Listagem de veículos
- -Detalhe do veículo
- -Busca
- -Formulário de novo/edição de veículos
+* Criar SPA que tenha : Listagem de veículos, Detalhe do veículo, Busca , Formulário de novo/edição de veículos
 
 ***
 To run the setup:
